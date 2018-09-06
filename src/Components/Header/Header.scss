@@ -1,0 +1,18 @@
+.Header { 
+  margin-bottom: 50px;
+  z-index: -1;
+  overflow: hidden;
+  position: relative;
+  
+  h1 {
+    font-weight: 900;
+    color: rgb(212, 212, 212);
+    font-size: 5rem;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+}

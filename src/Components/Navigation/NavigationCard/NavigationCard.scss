@@ -1,0 +1,29 @@
+.NavigationCard {
+  background-color: #303952;
+  height: 700px;
+  width: 1200px;
+  border-radius: 3px;
+  z-index: 2;
+  overflow: hidden;
+  box-shadow: 0px 20px 30px -10px rgba(0, 0, 0, 0.7);
+  margin: -100px auto;  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  animation: popIn 360ms cubic-bezier(0.165, 0.84, 0.44, 1) 1;
+}
+
+@keyframes popIn {
+  0% {
+    transform: scale(0);
+  }
+  
+  30% {
+    transform: scale(1.12);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
