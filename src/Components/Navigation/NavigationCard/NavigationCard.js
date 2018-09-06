@@ -23,11 +23,8 @@ const NavigationCard = props => {
           <Fragment>
             <Transition
               from={{ width: "0px" }}
-
               enter={{ width: "400px" }}
-
               leave={{ width: "0px" }}
-
               config={{
                 tension: 150,
                 friction: 20,
